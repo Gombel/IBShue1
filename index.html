@@ -7,7 +7,7 @@
     <!-- Die 3 Meta-Tags oben *müssen* zuerst im head stehen; jeglicher sonstiger head-Inhalt muss *nach* diesen Tags kommen -->
     <title>IBS Haus&uuml;bung 1</title>
     
-     <link rel="stylesheet" href="unbenannt.css" type="text/css" />
+    <link rel="stylesheet" href="main.css" type="text/css" /> 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <!-- Das neueste kompilierte und minimierte CSS -->
@@ -27,25 +27,25 @@
     <![endif]-->
   </head>
   <body>
-    <div class="nav">
+    <div id="navl">
       <div class="container">
         <ul class="pull-left">
         <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#">&Uuml;ber mich</a></li>
-          <li><a href="#">Pers&ouml;nliches</a></li>
-          <li><a href="#">Datenschutz</a></li>
+          <li><a href="ueber_mich.html">&Uuml;ber mich</a></li>
+          <li><a href="persoenliches.html">Pers&ouml;nliches</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
           
         </ul>
       </div>
-    </div>
+    </div> 
         
         <div class="jumbotron">
             <div class="container">
             <h1>Herzlich Willkommen auf der Website von Benedikt Gombel</h1>
             </div>
-        </div>
+        </div>                           
         
-          
+       
        
   <div class="footer">
          <img src="github.jpg" alt="" style="margin-right: 40px;" height="80px" width="120"/>
@@ -53,8 +53,12 @@
     </div> 
     
     <div class="button">
-        <a href="https://www.codecademy.com/textPro80481" class="button" style="margin-left: 480px;" ><button>GitHub</button></a>
+        <a href="https://github.com/Gombel" class="button" style="margin-left: 480px;" ><button>GitHub</button></a>
         <a href="https://www.codecademy.com/textPro80481" class="button" style="margin-right: 80px;" ><button>Codecademy</button></a>
+    </div>
+    
+    <div class="w3c">
+          <a href="http://wave.webaim.org/"><img src="wcag1AAA.jpg" alt="w3c" /></a>
     </div>
     
     <div id="navbar" class="collapse navbar-collapse">
@@ -63,20 +67,21 @@
                 <fieldset>
                     <legend class="sr-only"> Eintr&auml;ge der deutschen Wikipedia suche</legend>
                     <div class="input-group">
-                    <input id="wikipedia" class="from-control" type="text" data-validation-required-message="Bitte geben Sie einen Suchbegriff ein." required="" placeholder="Wikipedia-Suche" maxlength="50" name="seach"/>
+                    <input id="wikipedia" class="from-control" type="text" data-validation-required-message="Bitte geben Sie einen Suchbegriff ein." required="" placeholder="Wikipedia-Suche" maxlength="50" name="search"/>
                     <label class="sr-only" for="wikipedia">Wikipedia-Suche</label>
-                    <span class="input-group-btn">
                     <input class="btn btn-default" type="submit" value="Artikel" name="go" role="button"/>
                     <input class="btn btn-default" type="submit" value="Suche" name="fulltext" role="button"/>
-                    </span>
-                    </div>
+                   </div>
                 </fieldset>
                 </form>
             </ul>
             </div>
         </div>
-    
-    
+    <br />
+
+    <div class="end">
+         <h2 align="center">Die Website wurde im Rahmen, des Moduls, Internerbasierte Systeme erstellt.</h2>
+    </div>
     
     <!-- jQuery (wird für Bootstrap JavaScript-Plugins benötigt) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

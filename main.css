@@ -1,4 +1,4 @@
-.nav{
+#navl{
      background-color: black;
      position: fixed;
      top: 0;
@@ -13,7 +13,7 @@
     display: inline-block;
     padding: 10px;
     font-weight: 300;
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
     text-align: left;
 }
@@ -80,4 +80,19 @@
 
 .garderobe img{
     margin-left: 450px;
+}
+
+.w3c{
+    margin-top: 0;
+    margin-left: 1260px;
+    
+    
+}
+
+#navbar{
+    margin-left: 500px;
+}
+
+.end h2{
+    color: #000000;
 }
